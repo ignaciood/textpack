@@ -5,17 +5,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="textpack",
-    version="0.0.5",
+    version="0.0.1",
     author="Luke Whyte",
     author_email="lukeawhyte@gmail.com",
     description="Quickly identify and group similar text strings in a large dataset",
+    maintainer="ignacioodisio@gmail.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/lukewhyte/textpack",
     packages=setuptools.find_packages(),
     install_requires=[
         'pandas',
-        'sklearn',
+        'scikit-learn',
         'scipy',
         'numpy',
         'cython',
